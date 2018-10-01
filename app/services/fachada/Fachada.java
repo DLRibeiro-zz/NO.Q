@@ -1,9 +1,15 @@
-package services.facade;
+package services.fachada;
 
 import domain.restaurante.CNPJ;
 import domain.restaurante.Email;
 import domain.restaurante.Endereco;
 import domain.restaurante.Horario;
+import java.io.IOException;
+import repositories.AbstractFactoryRepositorio;
+import repositories.FactoryProducer;
+import repositories.IRepositorioRestaurante;
+import repositories.RepositorioRestauranteRelacional;
+import services.cadastros.CadastroRestaurante;
 import services.controladores.ControladorRestaurante;
 import domain.restaurante.persistidas.Restaurante;
 
@@ -13,7 +19,17 @@ public class Fachada {
     private ControladorRestaurante controladorRestaurante;
 
     public Fachada(){
-        controladorRestaurante = new ControladorRestaurante();
+        try {
+            /*TODO FAZER ISSO PARA TODAS AS ENTIDADES, NESSA ORDEM -> CRIAR REPOSITORIO COM A FABRICA
+              TODO CRIAR O CADASTRO, E DEPOIS CRIAR O CONTROLADOR.
+            */
+            AbstractFactoryRepositorio factoryRepositorio = FactoryProducer.produzirFabrica();//CRIOU FABRICA
+            IRepositorioRestaurante repositorioRestaurante = factoryRepositorio.criarRepositorioRestaurante();//CRIOU REPOSITORIO
+            CadastroRestaurante cadastroRestaurante = new CadastroRestaurante(repositorioRestaurante);//CRIOU CADASTRO COM O REPOSITORIO
+            this.controladorRestaurante = new ControladorRestaurante(cadastroRestaurante);//CRIOU O CONTROLADOR COM O CADASTRO
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void CadastrarPrato(){}

@@ -8,12 +8,15 @@ import domain.restaurante.persistidas.Restaurante;
 
 import java.util.ArrayList;
 import java.util.List;
+import services.cadastros.CadastroRestaurante;
 
 public class ControladorRestaurante {
     private List<Restaurante> restaurantes;
+    private CadastroRestaurante cadastroRestaurante;
 
-    public ControladorRestaurante() {
+    public ControladorRestaurante(CadastroRestaurante cadastroRestaurante) {
         this.restaurantes = new ArrayList<Restaurante>();
+        this.cadastroRestaurante = cadastroRestaurante;
     }
 
     public boolean cadastrarRestaurante(Restaurante restaurante){
