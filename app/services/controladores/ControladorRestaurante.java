@@ -11,11 +11,9 @@ import java.util.List;
 import services.cadastros.CadastroRestaurante;
 
 public class ControladorRestaurante {
-    private List<Restaurante> restaurantes;
     private CadastroRestaurante cadastroRestaurante;
 
     public ControladorRestaurante(CadastroRestaurante cadastroRestaurante) {
-        this.restaurantes = new ArrayList<Restaurante>();
         this.cadastroRestaurante = cadastroRestaurante;
     }
 
