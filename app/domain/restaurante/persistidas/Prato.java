@@ -1,5 +1,7 @@
 package domain.restaurante.persistidas;
 
-public class Prato {
+import io.ebean.Model;
+
+public class Prato extends Model{
 
 }

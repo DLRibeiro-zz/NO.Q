@@ -4,8 +4,9 @@ import domain.restaurante.CNPJ;
 import domain.restaurante.Email;
 import domain.restaurante.Endereco;
 import domain.restaurante.Horario;
+import io.ebean.Model;
 
-public class Restaurante {
+public class Restaurante extends Model{
     private CNPJ cnpj;
     private Email email;
     private Endereco endereco;
