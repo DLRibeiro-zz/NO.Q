@@ -19,6 +19,7 @@ public class ControladorRestaurante {
 
     public boolean cadastrarRestaurante(Restaurante restaurante){
         try {
+            this.cadastroRestaurante.salvarRestaurante(restaurante);
             return true;
         }catch (NullPointerException e){
             return false;
@@ -27,6 +28,7 @@ public class ControladorRestaurante {
 
     public boolean deletarRestaurante(CNPJ cnpj){
         try {
+            this.cadastroRestaurante.deletetarRestaurante(cnpj);
             return true;
         }catch (NullPointerException e){
             return false;
@@ -35,6 +37,7 @@ public class ControladorRestaurante {
 
     public boolean modificarRestaurante(Restaurante restaurante){
         try {
+            this.cadastroRestaurante.modificarRestaurante(restaurante);
             return true;
         }catch (NullPointerException e){
             return false;
@@ -42,10 +45,10 @@ public class ControladorRestaurante {
     }
 
     public Restaurante buscarRestaurante(CNPJ cnpj){
-        return null;
+        return this.cadastroRestaurante.buscarRestaurante(cnpj);
     }
 
     public List<Restaurante> buscarRestaurantes(){
-       return null;
+        return this.cadastroRestaurante.buscarRestaurantes();
     }
 }

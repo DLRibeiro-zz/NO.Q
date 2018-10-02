@@ -1,7 +1,27 @@
 package domain.restaurante.persistidas;
 
-import io.ebean.Model;
+import com.sun.corba.se.impl.oa.poa.POAPolicyMediatorImpl_R_AOM;
+import domain.restaurante.Preco;
 
-public class Prato extends Model{
+public abstract class Prato {
 
+  private String descricao;
+  private String nome;
+  private int tempo;
+  private Preco preco;
+
+  public Prato(String nome, String descricao, int tempo, int reais, int centavos){
+    this.nome = nome;
+    this.descricao = descricao;
+    this.tempo = tempo;
+    this.preco = new Preco(reais, centavos);
+  }
+
+  public Preco getPreco(){
+    return this.preco;
+  }
+
+  public int getTempo(){
+    return this.tempo;
+  }
 }

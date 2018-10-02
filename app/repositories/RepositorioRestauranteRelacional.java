@@ -13,7 +13,7 @@ public class RepositorioRestauranteRelacional implements IRepositorioRestaurante
     }
 
     @Override
-    public void deletarRestaurante(Restaurante restaurante) {
+    public void deletarRestaurante(CNPJ cnpj) {
 
     }
 
