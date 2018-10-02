@@ -9,7 +9,7 @@ public interface IRepositorioRestaurante {
 
     public void salvarRestaurante(Restaurante restaurante);
 
-    public void deletarRestaurante(Restaurante restaurante);
+    public void deletarRestaurante(CNPJ cnpj);
 
     public void modificarRestaurante(Restaurante restaurante);
 
