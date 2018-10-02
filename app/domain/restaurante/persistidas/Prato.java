@@ -2,8 +2,9 @@ package domain.restaurante.persistidas;
 
 import com.sun.corba.se.impl.oa.poa.POAPolicyMediatorImpl_R_AOM;
 import domain.restaurante.Preco;
+import io.ebean.Model;
 
-public abstract class Prato {
+public abstract class Prato extends Model{
 
   private String descricao;
   private String nome;

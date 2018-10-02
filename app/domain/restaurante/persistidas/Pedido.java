@@ -2,8 +2,9 @@ package domain.restaurante.persistidas;
 
 import domain.restaurante.Preco;
 import java.util.List;
+import io.ebean.Model;
 
-public class Pedido {
+public class Pedido extends Model{
 
   private List<Prato> pratos;
   private Preco precoPedido;
