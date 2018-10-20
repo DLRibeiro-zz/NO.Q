@@ -8,6 +8,8 @@ import domain.restaurante.persistidas.Restaurante;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+
 import services.cadastros.CadastroRestaurante;
 
 public class ControladorRestaurante {
@@ -44,7 +46,7 @@ public class ControladorRestaurante {
         }
     }
 
-    public Restaurante buscarRestaurante(CNPJ cnpj){
+    public List<Restaurante> buscarRestaurante(CNPJ cnpj){
         return this.cadastroRestaurante.buscarRestaurante(cnpj);
     }
 

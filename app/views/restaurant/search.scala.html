@@ -1,0 +1,19 @@
+@import domain.restaurante.persistidas.Restaurante
+@(restaurantForm : Form[Restaurante])
+@import helper._
+
+<html>
+    <head>
+        <title>NO.Q</title>
+    </head>
+    <body>
+        <h1>Buscar Restaurante</h1>
+        @helper.form(action = routes.ControladorTelaCadastroRestaurante.edit()) {
+
+            @helper.inputText(restaurantForm("cnpj"))
+
+            <input type="submit" value="Buscar">
+            }
+
+    </body>
+</html>

@@ -1,6 +1,5 @@
 package domain.restaurante.persistidas;
 
-import com.sun.corba.se.impl.oa.poa.POAPolicyMediatorImpl_R_AOM;
 import domain.restaurante.Preco;
 import io.ebean.Model;
 

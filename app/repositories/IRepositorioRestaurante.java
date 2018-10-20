@@ -13,7 +13,7 @@ public interface IRepositorioRestaurante {
 
     public void modificarRestaurante(Restaurante restaurante);
 
-    public Restaurante buscarRestaurante(CNPJ cnpj);
+    public List<Restaurante> buscarRestaurante(CNPJ cnpj);
 
     public List<Restaurante> buscarRestaurantes();
 }

@@ -1,0 +1,19 @@
+@import domain.restaurante.persistidas.Restaurante
+@(restaurantForm : Form[Restaurante])
+@import helper._
+
+<html>
+    <head>
+        <title>NO.Q</title>
+    </head>
+    <body>
+        <h1>Deletar Restaurante</h1>
+        @helper.form(action = routes.ControladorTelaCadastroRestaurante.destroy()) {
+
+            @helper.inputText(restaurantForm("cnpj"))
+
+            <input type="submit" value="Deletar">
+            }
+
+    </body>
+</html>

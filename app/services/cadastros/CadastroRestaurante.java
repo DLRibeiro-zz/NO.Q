@@ -3,6 +3,9 @@ package services.cadastros;
 import domain.restaurante.CNPJ;
 import domain.restaurante.persistidas.Restaurante;
 import java.util.List;
+import java.util.Set;
+
+import io.ebean.enhance.common.SysoutMessageOutput;
 import repositories.IRepositorioRestaurante;
 
 public class CadastroRestaurante {
@@ -25,11 +28,12 @@ public class CadastroRestaurante {
         this.repositorioRestaurante.modificarRestaurante(restaurante);
     }
 
-    public Restaurante buscarRestaurante(CNPJ cnpj){
+    public List<Restaurante> buscarRestaurante(CNPJ cnpj){
         return this.repositorioRestaurante.buscarRestaurante(cnpj);
     }
 
     public List<Restaurante> buscarRestaurantes(){
+
         return this.repositorioRestaurante.buscarRestaurantes();
     }
 

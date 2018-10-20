@@ -1,0 +1,29 @@
+@import domain.restaurante.persistidas.Restaurante
+@(restaurantes: List[Restaurante])
+
+<html>
+    <head>
+        <title>NO.Q</title>
+    </head>
+    <body>
+
+        <form action="http://localhost:9000/restaurant/create">
+            <input type="submit" value="Cadastrar" />
+        </form>
+        <form action="http://localhost:9000/restaurant/find">
+            <input type="submit" value="Editar" />
+        </form>
+        <form action="http://localhost:9000/restaurant/delete">
+            <input type="submit" value="Deletar" />
+        </form>
+        <h1>Restaurantes</h1>
+            @for(restaurante <- restaurantes){
+
+                <a href="#">@restaurante.getCnpj.getCnpj</a>
+                <p>@restaurante.getNome</p>
+                <p>@restaurante.getEmail.getEmail</p>
+
+            }
+
+    </body>
+</html>

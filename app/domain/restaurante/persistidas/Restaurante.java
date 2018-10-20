@@ -6,19 +6,32 @@ import domain.restaurante.Endereco;
 import domain.restaurante.Horario;
 import io.ebean.Model;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Restaurante extends Model{
     private CNPJ cnpj;
     private Email email;
     private Endereco endereco;
     private Horario horario;
-    private String senha;
+    private String nome, senha;
 
-    public Restaurante(CNPJ cnpj, Email email, Endereco endereco, Horario horario, String senha) {
+    public Restaurante(){}
+    public Restaurante(String nome, CNPJ cnpj, Email email, String senha) {
+        this.nome = nome;
         this.cnpj = cnpj;
         this.email = email;
-        this.endereco = endereco;
-        this.horario = horario;
+       // this.endereco = endereco; //MODIFICAR O FORMATO DO ENDEREÇO E DO HORARIO
+      //  this.horario = horario;
         this.senha = senha;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public CNPJ getCnpj() {
