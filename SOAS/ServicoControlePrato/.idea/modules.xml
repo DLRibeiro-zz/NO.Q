@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ControlePrato.iml" filepath="$PROJECT_DIR$/.idea/modules/ControlePrato.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ControlePrato_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ControlePrato_main.iml" group="ControlePrato" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ControlePrato_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ControlePrato_test.iml" group="ControlePrato" />
+    </modules>
+  </component>
+</project>
