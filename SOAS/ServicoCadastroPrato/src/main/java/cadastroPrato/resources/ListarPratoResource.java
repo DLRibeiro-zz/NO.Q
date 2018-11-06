@@ -28,15 +28,15 @@ public class ListarPratoResource {
   }
 
   @GET
-  @Path("/{id}")
+  @Path("/id/{id}")
   public Response buscarPrato(@PathParam("id") Integer id){
     Prato prato = this.pratoDB.buscarPrato(id.intValue());
     return Response.ok(prato).build();
   }
 
-  @Path("/{cnpj}")
+  @Path("/cnpj/{cnpj}")
   @GET
-  public Response buscarPratos(@QueryParam("cnpj") String cnpj){
+  public Response buscarPratos(@PathParam("cnpj") String cnpj){
     CNPJ cnpjO = new CNPJ(cnpj);
     List<Prato> pratos = this.pratoDB.buscarPratos(cnpjO);
     Response response = Response.ok(pratos).build();
