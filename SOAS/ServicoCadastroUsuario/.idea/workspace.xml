@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d643514-6ed3-432f-8b94-13361fb7d8eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Prato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/CNPJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/CNPJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Horario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoSimples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoSimples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Preco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Preco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -33,7 +40,7 @@
           <entry key="bat" value="1" />
           <entry key="gradle" value="3" />
           <entry key="gradlew" value="1" />
-          <entry key="java" value="23" />
+          <entry key="java" value="25" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -42,7 +49,7 @@
           <entry key="Bat" value="1" />
           <entry key="Dockerfile" value="2" />
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="25" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="1" />
         </counts>
@@ -52,7 +59,7 @@
           <entry key="Dockerfile" value="7" />
           <entry key="dummy" value="14" />
           <entry key="gradle" value="77" />
-          <entry key="java" value="995" />
+          <entry key="java" value="2611" />
           <entry key="yml" value="10" />
         </counts>
       </usages-collector>
@@ -60,7 +67,7 @@
         <counts>
           <entry key="Dockerfile" value="7" />
           <entry key="Groovy" value="77" />
-          <entry key="JAVA" value="995" />
+          <entry key="JAVA" value="2611" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="YAML" value="10" />
         </counts>
@@ -73,42 +80,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="956">
+              <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Pedido.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="905">
+            <state relative-caret-position="350">
               <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-              <folding>
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#968#969#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Prato.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="-132">
               <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,44 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/CNPJ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Email.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Endereco.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Horario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="221">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,19 +135,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoSimples.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="323">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Preco.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Endereco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="-119">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Horario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoSimples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -514,16 +515,17 @@
         <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/MainApp.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Pedido.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Prato.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java" />
         <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/CNPJ.java" />
         <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Email.java" />
         <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Endereco.java" />
         <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Horario.java" />
         <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Preco.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java" />
         <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoSimples.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Pedido.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Prato.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Usuario.java" />
       </list>
     </option>
   </component>
@@ -608,7 +610,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541460702420" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541463372397" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ProjetoApsEntrega2/service-cadastro-atividade" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -663,12 +665,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541453016420</updated>
-      <workItem from="1541453020681" duration="5853000" />
+      <workItem from="1541453020681" duration="8691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5853000" />
+    <option name="totallyTimeSpent" value="8691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -773,10 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Preco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="140">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -785,77 +787,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoSimples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="102">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Preco.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Horario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="402">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Endereco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/CNPJ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Pedido.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="905">
+        <state relative-caret-position="350">
           <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/CNPJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Prato.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="-132">
           <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -872,6 +880,13 @@
             <element signature="e#1238#1239#0" expanded="true" />
             <element signature="e#1266#1267#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="956">
+          <caret line="90" column="1" lean-forward="true" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
         </state>
       </provider>
     </entry>
