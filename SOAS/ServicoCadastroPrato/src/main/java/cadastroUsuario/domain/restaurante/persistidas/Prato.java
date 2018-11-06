@@ -1,5 +1,6 @@
 package cadastroUsuario.domain.restaurante.persistidas;
 
+import cadastroUsuario.domain.restaurante.CNPJ;
 import cadastroUsuario.domain.restaurante.Preco;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonGetter;
@@ -18,6 +19,8 @@ public abstract class Prato{
   private int tempo;
   @NotEmpty
   private Preco preco;
+  @NotEmpty
+  private CNPJ cnpjRestaurante;
 
   public Prato(){
 
@@ -26,12 +29,26 @@ public abstract class Prato{
   public Prato(@JsonProperty("nome") String nome,
       @JsonProperty("descricao") String descricao,
       @JsonProperty("tempo") int tempo,
-      @JsonProperty("preco") Preco preco, @JsonProperty("id") int id){
+      @JsonProperty("preco") Preco preco, @JsonProperty("id") int id, @JsonProperty("cnpjRestaurante")CNPJ cnpj){
     this.nome = nome;
     this.descricao = descricao;
     this.tempo = tempo;
     this.preco = preco;
     this.id = id;
+    this.cnpjRestaurante = cnpj;
+  }
+
+  @JsonCreator
+  public Prato(@JsonProperty("nome") String nome,
+      @JsonProperty("descricao") String descricao,
+      @JsonProperty("tempo") int tempo,
+      @JsonProperty("preco") Preco preco,@JsonProperty("cnpjRestaurante")CNPJ cnpj){
+    this.nome = nome;
+    this.descricao = descricao;
+    this.tempo = tempo;
+    this.preco = preco;
+    this.id = -1;
+    this.cnpjRestaurante = cnpj;
   }
 
   @JsonCreator
@@ -86,5 +103,14 @@ public abstract class Prato{
   @JsonSetter("id")
   public void setId(int id) {
     this.id = id;
+  }
+
+  @JsonGetter("cnpjRestaurante")
+  public CNPJ getCnpjRestaurante() {
+    return cnpjRestaurante;
+  }
+  @JsonSetter("cnpjRestaurante")
+  public void setCnpjRestaurante(CNPJ cnpjRestaurante) {
+    this.cnpjRestaurante = cnpjRestaurante;
   }
 }

@@ -1,5 +1,6 @@
 package cadastroUsuario.repositories;
 
+import cadastroUsuario.domain.restaurante.CNPJ;
 import cadastroUsuario.domain.restaurante.persistidas.Prato;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -33,6 +34,17 @@ public class RepositorioPratoMemoria implements IRepositorioPrato {
   @Override
   public Prato buscarPrato(int id) {
     return this.pratos.get(id);
+  }
+
+  @Override
+  public List<Prato> buscarPratos(CNPJ cnpj) {
+    List<Prato> pratosList = new ArrayList<>();
+    for(Prato prato : this.pratos.values()){
+      if(prato.getCnpjRestaurante().equals(cnpj)){
+        pratosList.add(prato);
+      }
+    }
+    return pratosList;
   }
 
   @Override

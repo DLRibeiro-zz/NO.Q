@@ -1,6 +1,8 @@
 package cadastroUsuario.resources;
 
+import cadastroUsuario.domain.restaurante.persistidas.Prato;
 import cadastroUsuario.domain.restaurante.persistidas.Restaurante;
+import cadastroUsuario.repositories.IRepositorioPrato;
 import cadastroUsuario.repositories.IRepositorioRestaurante;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -10,17 +12,17 @@ import javax.ws.rs.core.Response;
 
 @Path("cadastrar/restaurante")
 @Consumes(MediaType.APPLICATION_JSON)
-public class CadastrarRestauranteResource {
+public class CadastrarPratoResource {
 
-  private IRepositorioRestaurante restauranteDB;
+  private IRepositorioPrato pratoDB;
 
-  public CadastrarRestauranteResource(IRepositorioRestaurante restauranteDB){
-    this.restauranteDB = restauranteDB;
+  public CadastrarPratoResource(IRepositorioPrato pratoDB){
+    this.pratoDB = pratoDB;
   }
 
   @POST
-  public Response cadastrarRestaurante(Restaurante restaurante){
-    this.restauranteDB.salvarRestaurante(restaurante);
+  public Response cadastrarRestaurante(Prato prato){
+    this.pratoDB.salvarPrato(prato);
     return Response.ok().status(201).build();
   }
 

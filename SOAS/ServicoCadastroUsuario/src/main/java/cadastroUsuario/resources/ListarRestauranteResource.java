@@ -26,7 +26,7 @@ public class ListarRestauranteResource {
     return response;
   }
 
-  @Path("{cnpj}")
+  @Path("/{cnpj}")
   @GET
   public Response buscarRestaurante(@QueryParam("cnpj") String cnpj){
     CNPJ cnpjO = new CNPJ(cnpj);
