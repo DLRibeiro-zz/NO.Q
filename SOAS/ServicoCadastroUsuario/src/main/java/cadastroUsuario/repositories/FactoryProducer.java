@@ -28,6 +28,7 @@ public class FactoryProducer {
         break;
       case "memoria":
         factoryRepositorio = new FactoryRepositorioMemoria();
+        break;
       default: factoryRepositorio = new FactoryRepositorioRelacional();
     }
     return factoryRepositorio;

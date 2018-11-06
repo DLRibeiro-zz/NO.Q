@@ -2,6 +2,7 @@ package cadastroUsuario.repositories;
 
 import cadastroUsuario.domain.restaurante.CNPJ;
 import cadastroUsuario.domain.restaurante.persistidas.Restaurante;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -28,11 +29,17 @@ public class RepositorioRestauranteMemoria implements IRepositorioRestaurante {
 
   @Override
   public List<Restaurante> buscarRestaurante(CNPJ cnpj) {
-    return (List<Restaurante>) this.restaurantes.get(cnpj);
+    List<Restaurante> restaurantesList = new ArrayList<>();
+    restaurantesList.add(this.restaurantes.get(cnpj));
+    return restaurantesList;
   }
 
   @Override
   public List<Restaurante> buscarRestaurantes() {
-    return (List<Restaurante>) this.restaurantes.values();
+    List<Restaurante> restaurantesList = new ArrayList<>();
+    for(Restaurante restaurante: this.restaurantes.values()){
+      restaurantesList.add(restaurante);
+    }
+    return restaurantesList;
   }
 }

@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'servicoCadastroUsuario'
@@ -9,6 +10,16 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+}
+
+mainClassName = "cadastroUsuario.MainApp"
+
+project.ext {
+    configPath = "$rootProject.projectDir/config/"
+}
+
+run {
+    args 'server', configPath + 'app_config.yml'
 }
 
 dependencies {
@@ -22,7 +33,7 @@ dependencies {
 jar {
     archiveName "cadastroUsuario.jar"
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
-    manifest { attributes 'Main-Class': "cadastroUsuario.MainApp" }
+    manifest { attributes 'Main-Class': mainClassName }
 }
 
 task downloadDependencies(type: Exec) {
