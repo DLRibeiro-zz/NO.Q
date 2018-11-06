@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fachada.iml" filepath="$PROJECT_DIR$/.idea/modules/fachada.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fachada_main.iml" filepath="$PROJECT_DIR$/.idea/modules/fachada_main.iml" group="fachada" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fachada_test.iml" filepath="$PROJECT_DIR$/.idea/modules/fachada_test.iml" group="fachada" />
+    </modules>
+  </component>
+</project>
