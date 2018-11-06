@@ -1,16 +1,14 @@
-package cadastroUsuario.resources;
+package controlePrato.resources;
 
-import cadastroUsuario.domain.restaurante.persistidas.Prato;
-import cadastroUsuario.domain.restaurante.persistidas.Restaurante;
-import cadastroUsuario.repositories.IRepositorioPrato;
-import cadastroUsuario.repositories.IRepositorioRestaurante;
+import controlePrato.domain.restaurante.persistidas.Prato;
+import controlePrato.repositories.IRepositorioPrato;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("cadastrar/restaurante")
+@Path("cadastrar/prato")
 @Consumes(MediaType.APPLICATION_JSON)
 public class CadastrarPratoResource {
 

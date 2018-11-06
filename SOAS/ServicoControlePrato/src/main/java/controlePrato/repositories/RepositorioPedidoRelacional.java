@@ -1,6 +1,6 @@
-package cadastroUsuario.repositories;
+package controlePrato.repositories;
 
-import cadastroUsuario.domain.restaurante.persistidas.Pedido;
+import controlePrato.domain.restaurante.persistidas.Pedido;
 import java.util.List;
 
 public class RepositorioPedidoRelacional implements IRepositorioPedido {

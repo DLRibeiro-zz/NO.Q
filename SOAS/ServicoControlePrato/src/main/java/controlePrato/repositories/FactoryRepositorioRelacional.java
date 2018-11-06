@@ -1,4 +1,4 @@
-package cadastroUsuario.repositories;
+package controlePrato.repositories;
 
 public class FactoryRepositorioRelacional extends AbstractFactoryRepositorio {
 

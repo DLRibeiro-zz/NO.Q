@@ -1,4 +1,4 @@
-package cadastroUsuario.repositories;
+package controlePrato.repositories;
 
 public abstract class AbstractFactoryRepositorio {
 

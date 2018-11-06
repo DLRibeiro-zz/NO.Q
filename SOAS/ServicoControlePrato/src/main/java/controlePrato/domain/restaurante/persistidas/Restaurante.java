@@ -1,9 +1,9 @@
-package cadastroUsuario.domain.restaurante.persistidas;
+package controlePrato.domain.restaurante.persistidas;
 
-import cadastroUsuario.domain.restaurante.CNPJ;
-import cadastroUsuario.domain.restaurante.Email;
-import cadastroUsuario.domain.restaurante.Endereco;
-import cadastroUsuario.domain.restaurante.Horario;
+import controlePrato.domain.restaurante.CNPJ;
+import controlePrato.domain.restaurante.Email;
+import controlePrato.domain.restaurante.Endereco;
+import controlePrato.domain.restaurante.Horario;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSetter;

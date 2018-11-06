@@ -8,7 +8,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("cadastrar/restaurante")
+@Path("cadastrar/prato")
 @Consumes(MediaType.APPLICATION_JSON)
 public class CadastrarPratoResource {
 
@@ -19,7 +19,7 @@ public class CadastrarPratoResource {
   }
 
   @POST
-  public Response cadastrarRestaurante(Prato prato){
+  public Response cadastrarPrato(Prato prato){
     this.pratoDB.salvarPrato(prato);
     return Response.ok().status(201).build();
   }

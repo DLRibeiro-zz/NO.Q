@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2dafdf8-5a99-4bfb-a4a6-d79df444ff0c" name="Default Changelist" comment="" />
+    <list default="true" id="b2dafdf8-5a99-4bfb-a4a6-d79df444ff0c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroPrato/resources/CadastrarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroPrato/resources/CadastrarPratoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroPrato/resources/ListarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroPrato/resources/ListarPratoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/ServiceCadastroPratoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/ServiceCadastroPratoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/CNPJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/CNPJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/Horario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/PratoComposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/PratoSimples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/PratoSimples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/Preco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/Preco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Prato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Restaurante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/AbstractFactoryRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/AbstractFactoryRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/FactoryProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/FactoryRepositorioMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/FactoryRepositorioMemoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/FactoryRepositorioRelacional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/FactoryRepositorioRelacional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/IRepositorioPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/IRepositorioPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/IRepositorioPrato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/IRepositorioPrato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/IRepositorioRestaurante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/IRepositorioRestaurante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/RepositorioPedidoRelacional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/RepositorioPedidoRelacional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/RepositorioPratoMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/RepositorioPratoMemoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/RepositorioRestauranteMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/RepositorioRestauranteMemoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/RepositorioRestauranteRelacional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/RepositorioRestauranteRelacional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/resources/CadastrarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/resources/CadastrarPratoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/resources/ListarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/resources/ListarPratoResource.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,15 +50,16 @@
     <session id="1416906507">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Dockerfile" value="3" />
-          <entry key="gradle" value="3" />
+          <entry key="gradle" value="4" />
           <entry key="java" value="15" />
           <entry key="yml" value="1" />
         </counts>
@@ -36,7 +67,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="3" />
-          <entry key="Groovy" value="3" />
+          <entry key="Groovy" value="4" />
           <entry key="JAVA" value="15" />
           <entry key="YAML" value="1" />
         </counts>
@@ -45,14 +76,14 @@
         <counts>
           <entry key="dummy" value="15" />
           <entry key="gradle" value="10" />
-          <entry key="java" value="729" />
+          <entry key="java" value="746" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="10" />
-          <entry key="JAVA" value="729" />
+          <entry key="JAVA" value="746" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="YAML" value="5" />
         </counts>
@@ -64,18 +95,9 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/repositories/RepositorioPratoMemoria.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/repositories/IRepositorioPrato.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/repositories/IRepositorioPrato.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
@@ -83,61 +105,62 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/resources/CadastrarPratoResource.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/resources/CadastrarPratoResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-              <folding>
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/MainApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+              <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="357">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/ServiceCadastroPratoConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/ServiceCadastroPratoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/resources/ListarPratoResource.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/resources/ListarPratoResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding>
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/repositories/FactoryRepositorioMemoria.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/repositories/FactoryRepositorioMemoria.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -146,24 +169,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Prato.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/domain/restaurante/persistidas/Prato.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <element signature="e#2673#2674#0" expanded="true" />
-                <element signature="e#2705#2706#0" expanded="true" />
-                <element signature="e#2763#2764#0" expanded="true" />
-                <element signature="e#2811#2812#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/domain/restaurante/PratoComposto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-506">
+            <state relative-caret-position="68">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
@@ -395,6 +412,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="6165984665184" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1766665998" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -508,6 +526,7 @@
       <map>
         <entry key="$PROJECT_DIR$/../../../AntennaPod" value="PREVIEW" />
         <entry key="$PROJECT_DIR$/../.." value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../ServicoCadastroUsuario" value="PREVIEW" />
       </map>
     </option>
@@ -526,6 +545,8 @@
         <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/resources/ListarPratoResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/resources/CadastrarPratoResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/cadastroUsuario/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cadastroPrato/resources/ListarPratoResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cadastroPrato/resources/CadastrarPratoResource.java" />
       </list>
     </option>
   </component>
@@ -547,60 +568,60 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CadastroUsuario" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CadastroPrato" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServicoCadastroPrato" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="CadastroUsuario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServicoCadastroPrato" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CadastroUsuario" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CadastroPrato" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServicoCadastroPrato" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="CadastroUsuario" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CadastroPrato" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServicoCadastroPrato" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CadastroUsuario" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CadastroPrato" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServicoCadastroPrato" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cadastroUsuario" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CadastroUsuario" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CadastroPrato" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServicoCadastroPrato" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cadastroUsuario" type="462c0819:PsiDirectoryNode" />
+              <item name="cadastroPrato" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CadastroPrato" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServicoCadastroPrato" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cadastroPrato" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541514923507" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541515580285" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -656,29 +677,25 @@
       <option name="presentableId" value="Default" />
       <updated>1541508889570</updated>
       <workItem from="1541508930573" duration="3952000" />
+      <workItem from="1541515067806" duration="60000" />
+      <workItem from="1541515273406" duration="306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3952000" />
+    <option name="totallyTimeSpent" value="4318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -686,17 +703,24 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -720,122 +744,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/repositories/AbstractFactoryRepositorio.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/repositories/AbstractFactoryRepositorio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/Preco.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/domain/restaurante/Preco.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/domain/restaurante/persistidas/Restaurante.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoSimples.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/domain/restaurante/PratoSimples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/repositories/RepositorioPratoMemoria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/repositories/FactoryRepositorioMemoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/repositories/RepositorioPratoMemoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
+        <state relative-caret-position="527">
           <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/repositories/IRepositorioPrato.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/repositories/IRepositorioPrato.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Prato.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#2673#2674#0" expanded="true" />
-            <element signature="e#2705#2706#0" expanded="true" />
-            <element signature="e#2763#2764#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/ServiceCadastroPratoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/resources/CadastrarPratoResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/resources/ListarPratoResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroUsuario/MainApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+          <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/ServiceCadastroPratoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/repositories/FactoryRepositorioMemoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/domain/restaurante/persistidas/Prato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/domain/restaurante/PratoComposto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/resources/ListarPratoResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cadastroPrato/resources/CadastrarPratoResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package cadastroUsuario.domain.restaurante;
+package controlePrato.domain.restaurante;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonGetter;

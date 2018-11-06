@@ -1,4 +1,4 @@
-package cadastroUsuario.repositories;
+package controlePrato.repositories;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

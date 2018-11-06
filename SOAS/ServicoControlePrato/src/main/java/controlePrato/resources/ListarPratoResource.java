@@ -1,10 +1,8 @@
-package cadastroUsuario.resources;
+package controlePrato.resources;
 
-import cadastroUsuario.domain.restaurante.CNPJ;
-import cadastroUsuario.domain.restaurante.persistidas.Prato;
-import cadastroUsuario.domain.restaurante.persistidas.Restaurante;
-import cadastroUsuario.repositories.IRepositorioPrato;
-import cadastroUsuario.repositories.IRepositorioRestaurante;
+import controlePrato.domain.restaurante.CNPJ;
+import controlePrato.domain.restaurante.persistidas.Prato;
+import controlePrato.repositories.IRepositorioPrato;
 import java.util.List;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

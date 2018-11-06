@@ -1,7 +1,7 @@
-package cadastroUsuario.repositories;
+package controlePrato.repositories;
 
-import cadastroUsuario.domain.restaurante.CNPJ;
-import cadastroUsuario.domain.restaurante.persistidas.Restaurante;
+import controlePrato.domain.restaurante.CNPJ;
+import controlePrato.domain.restaurante.persistidas.Restaurante;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
