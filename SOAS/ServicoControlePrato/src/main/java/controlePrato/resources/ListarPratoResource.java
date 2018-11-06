@@ -34,9 +34,9 @@ public class ListarPratoResource {
   }
 
   @GET
-  @Path("/{id}")
+  @Path("/id/{id}")
   public Response buscarPrato(@PathParam("id") Integer id) throws IOException {
-    String url = "http://servicecadastroprato:8080/listar/prato/" + id;
+    String url = "http://servicecadastroprato:8080/listar/prato/id/" + id;
     String json = Jsoup.connect(url)
         .method(Connection.Method.GET)
         .ignoreContentType(true)
@@ -45,10 +45,10 @@ public class ListarPratoResource {
     return Response.ok(json).build();
   }
 
-  @Path("{cnpj}")
+  @Path("/cnpj/{cnpj}")
   @GET
-  public Response buscarPratos(@QueryParam("cnpj") String cnpj) throws IOException {
-    String url = "http://servicecadastroprato:8080/listar/prato" + "?cnpj="+cnpj;
+  public Response buscarPratos(@PathParam("cnpj") String cnpj) throws IOException {
+    String url = "http://servicecadastroprato:8080/listar/prato/cnpj/" + cnpj;
     String json = Jsoup.connect(url)
         .method(Connection.Method.GET)
         .ignoreContentType(true)
