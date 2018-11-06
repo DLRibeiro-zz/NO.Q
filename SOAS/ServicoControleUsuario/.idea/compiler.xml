@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="CadastroPrato_main" target="1.8" />
+      <module name="CadastroPrato_test" target="1.8" />
+      <module name="CadastroUsuario_main" target="1.8" />
+      <module name="CadastroUsuario_test" target="1.8" />
+      <module name="ControlePrato_main" target="1.8" />
+      <module name="ControlePrato_test" target="1.8" />
+      <module name="ControleUsuario_main" target="1.8" />
+      <module name="ControleUsuario_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

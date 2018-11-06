@@ -6,6 +6,7 @@ import cadastroUsuario.repositories.IRepositorioRestaurante;
 import java.util.List;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
@@ -26,9 +27,9 @@ public class ListarRestauranteResource {
     return response;
   }
 
-  @Path("/{cnpj}")
+  @Path("cnpj/{cnpj}")
   @GET
-  public Response buscarRestaurante(@QueryParam("cnpj") String cnpj){
+  public Response buscarRestaurante(@PathParam("cnpj") String cnpj){
     CNPJ cnpjO = new CNPJ(cnpj);
     List<Restaurante> restaurantes = this.restauranteDB.buscarRestaurante(cnpjO);
     Response response = Response.ok(restaurantes).build();

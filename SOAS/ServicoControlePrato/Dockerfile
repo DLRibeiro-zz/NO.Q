@@ -17,7 +17,7 @@ COPY . $SOURCE_HOME
 
 RUN ./gradlew assemble -x test \
     && ln -s $SOURCE_HOME/config/app_config.yml $APP_HOME/app_config.yml \
-    && ln -s $SOURCE_HOME/build/libs/cadastroPrato.jar $APP_HOME/app.jar \
+    && ln -s $SOURCE_HOME/build/libs/controlePrato.jar $APP_HOME/app.jar \
     && ln -s $SOURCE_HOME/app.sh $APP_HOME/app.sh
 
 WORKDIR $APP_HOME
