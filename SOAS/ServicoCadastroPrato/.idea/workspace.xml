@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2dafdf8-5a99-4bfb-a4a6-d79df444ff0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroPrato/resources/CadastrarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroPrato/resources/CadastrarPratoResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cadastroPrato/resources/ListarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cadastroPrato/resources/ListarPratoResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/ServiceCadastroPratoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/ServiceCadastroPratoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/CNPJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/CNPJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/Horario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/PratoComposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/PratoComposto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/PratoSimples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/PratoSimples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/Preco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/Preco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Prato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/domain/restaurante/persistidas/Restaurante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Restaurante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/AbstractFactoryRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/AbstractFactoryRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/FactoryProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/FactoryRepositorioMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/FactoryRepositorioMemoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/FactoryRepositorioRelacional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/FactoryRepositorioRelacional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/IRepositorioPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/IRepositorioPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/IRepositorioPrato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/IRepositorioPrato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/IRepositorioRestaurante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/IRepositorioRestaurante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/RepositorioPedidoRelacional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/RepositorioPedidoRelacional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/RepositorioPratoMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/RepositorioPratoMemoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/RepositorioRestauranteMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/RepositorioRestauranteMemoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/repositories/RepositorioRestauranteRelacional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/repositories/RepositorioRestauranteRelacional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/resources/CadastrarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/resources/CadastrarPratoResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/cadastroUsuario/resources/ListarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicoControlePrato/src/main/java/controlePrato/resources/ListarPratoResource.java" afterDir="false" />
-    </list>
+    <list default="true" id="b2dafdf8-5a99-4bfb-a4a6-d79df444ff0c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,7 +20,7 @@
     <session id="1416906507">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.opened" value="3" />
@@ -603,15 +573,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cadastroPrato" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CadastroPrato" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServicoCadastroPrato" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cadastroPrato" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -621,8 +582,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541515580285" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541515583343" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ServicoControlePrato" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -678,16 +639,15 @@
       <updated>1541508889570</updated>
       <workItem from="1541508930573" duration="3952000" />
       <workItem from="1541515067806" duration="60000" />
-      <workItem from="1541515273406" duration="306000" />
+      <workItem from="1541515273406" duration="354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4318000" />
+    <option name="totallyTimeSpent" value="4366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
