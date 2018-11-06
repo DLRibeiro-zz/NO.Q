@@ -1,8 +1,7 @@
-package repositories;
+package cadastroUsuario.repositories;
 
-import domain.restaurante.CNPJ;
-import domain.restaurante.persistidas.Restaurante;
-
+import cadastroUsuario.domain.restaurante.CNPJ;
+import cadastroUsuario.domain.restaurante.persistidas.Restaurante;
 import java.util.List;
 
 public interface IRepositorioRestaurante {

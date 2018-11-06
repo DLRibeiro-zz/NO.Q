@@ -1,4 +1,4 @@
-package repositories;
+package cadastroUsuario.repositories;
 
 public abstract class AbstractFactoryRepositorio {
 

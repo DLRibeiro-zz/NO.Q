@@ -1,10 +1,7 @@
-package repositories;
+package cadastroUsuario.repositories;
 
-import domain.restaurante.CNPJ;
-import domain.restaurante.Email;
-import domain.restaurante.Endereco;
-import domain.restaurante.persistidas.Restaurante;
-
+import cadastroUsuario.domain.restaurante.CNPJ;
+import cadastroUsuario.domain.restaurante.persistidas.Restaurante;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,8 +10,6 @@ public class RepositorioRestauranteRelacional implements IRepositorioRestaurante
 
     @Override
     public void salvarRestaurante(Restaurante restaurant) {
-        restaurants.add(new Restaurante("VilaNova", new CNPJ("1"), new Email("acab2@cin.ufpe.br"), "12345"));
-        restaurants.add(new Restaurante("VilaVelha", new CNPJ("2"), new Email("acab2@cin.ufpe.br"), "12345"));
 
     }
 

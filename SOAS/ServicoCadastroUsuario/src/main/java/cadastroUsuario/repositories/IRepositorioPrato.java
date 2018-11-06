@@ -1,6 +1,6 @@
-package repositories;
+package cadastroUsuario.repositories;
 
-import domain.restaurante.persistidas.Prato;
+import cadastroUsuario.domain.restaurante.persistidas.Prato;
 import java.util.List;
 
 public interface IRepositorioPrato {

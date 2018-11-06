@@ -9,6 +9,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 public abstract class Prato{
 
+  int id;
   @NotEmpty
   private String descricao;
   @NotEmpty
@@ -25,11 +26,24 @@ public abstract class Prato{
   public Prato(@JsonProperty("nome") String nome,
       @JsonProperty("descricao") String descricao,
       @JsonProperty("tempo") int tempo,
-      @JsonProperty("preco") Preco preco){
+      @JsonProperty("preco") Preco preco, @JsonProperty("id") int id){
     this.nome = nome;
     this.descricao = descricao;
     this.tempo = tempo;
     this.preco = preco;
+    this.id = id;
+  }
+
+  @JsonCreator
+  public Prato(@JsonProperty("nome") String nome,
+      @JsonProperty("descricao") String descricao,
+      @JsonProperty("tempo") int tempo,
+      @JsonProperty("preco") Preco preco) {
+    this.nome = nome;
+    this.descricao = descricao;
+    this.tempo = tempo;
+    this.preco = preco;
+    this.id = -1;
   }
 
   @JsonGetter("preco")
@@ -64,5 +78,13 @@ public abstract class Prato{
   @JsonSetter("preco")
   public void setPreco(Preco preco) {
     this.preco = preco;
+  }
+  @JsonGetter("id")
+  public int getId() {
+    return id;
+  }
+  @JsonSetter("id")
+  public void setId(int id) {
+    this.id = id;
   }
 }

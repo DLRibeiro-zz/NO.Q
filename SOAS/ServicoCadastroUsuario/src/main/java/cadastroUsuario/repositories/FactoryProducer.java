@@ -1,4 +1,4 @@
-package repositories;
+package cadastroUsuario.repositories;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -25,6 +25,9 @@ public class FactoryProducer {
     switch(dbType){
       case "relacional" :
         factoryRepositorio =  new FactoryRepositorioRelacional();
+        break;
+      case "memoria":
+        factoryRepositorio = new FactoryRepositorioMemoria();
       default: factoryRepositorio = new FactoryRepositorioRelacional();
     }
     return factoryRepositorio;

@@ -1,6 +1,6 @@
-package repositories;
+package cadastroUsuario.repositories;
 
-import domain.restaurante.persistidas.Pedido;
+import cadastroUsuario.domain.restaurante.persistidas.Pedido;
 import java.util.List;
 
 public interface IRepositorioPedido {
