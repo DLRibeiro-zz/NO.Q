@@ -1,0 +1,35 @@
+version: '3'
+services:
+  servicecadastrousuario:
+    build: ServicoCadastroUsuario/
+    ports:
+      - "9090:8080"
+  servicecadastroprato:
+    build: ServicoCadastroPrato/
+    ports:
+      - "9000:8080"
+  servicecontroleusuario:
+    build: ServicoControleUsuario/
+    links:
+      - servicecadastrousuario
+    ports:
+      - "9010:8080"
+  servicecontroleprato:
+    build: ServicoControlePrato/
+    links:
+      - servicecadastroprato
+    ports:
+      - "9020:8080"
+  servicefachada:
+    build: ServicoFachada/
+    links:
+      - servicecontroleprato
+      - servicecontroleusuario
+    ports:
+      - "9030:8080"
+  servicefrontend:
+    build: ServicoGUI/
+    links:
+      - servicefachada
+    ports:
+      - "8080:8080"
