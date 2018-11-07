@@ -40,7 +40,7 @@
     <nav class="navbar navbar-fixed-top navbar-expand-lg ">
         <div class="container">
                 
-            <a class="navbar-brand h1 mb-0" href="index.html">
+            <a class="navbar-brand h1 mb-0" href="/home">
                 <img src="https://i.imgur.com/qG71wOq.png" height="45" width="70" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
@@ -54,7 +54,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="visualizarPratos.html">Pratos</a>
+                            <a class="nav-link" href="/listar/prato">Pratos</a>
                     </li>
                     <li class="nav-item">
                             <a class="nav-link" href="#">Sair</a>
@@ -65,7 +65,7 @@
     </nav>
     <div class="container"> <p></p></div>
         <div class="container">
-            <form method="post" action="" id="formPrato">
+            <form method="post" action="cadastrar/prato/" id="formPrato">
                 <div class="form-row">
                     <div class="form-group col-sm-9">
                         <input type="text" class="form-control" id="inputNome" placeholder="Nome do Prato">
@@ -78,13 +78,13 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-sm-4">
-                        <input type="text" class="form-control" id="inputTempo" placeholder="Tempo de Preparo em Minutos">
+                        <input type="number" class="form-control" id="inputTempo" placeholder="Tempo de Preparo em Minutos">
                     </div>
                     <div class="form-group col-sm-4">
                         <input type="text" class="form-control" id="inputReais" placeholder="Preço">
                     </div>
                     <div class="form-group col-sm-2">
-                        <a type="submit" class="btn btn-danger" href="visualizarPratos.html" onClick="">Salvar</a>
+                        <a type="submit" class="btn btn-danger" href="listar/prato/" onClick="">Salvar</a>
                     </div>
                 </div>
             </form>

@@ -74,6 +74,6 @@ public class HomeHTML {
       + "</html>";
 
   public String getHtml() {
-    return html;
+    return this.html;
   }
 }

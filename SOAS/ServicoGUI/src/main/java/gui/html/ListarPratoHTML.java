@@ -1,5 +1,120 @@
 package gui.html;
 
-public class ListarPratoHTML {
+import gui.domain.restaurante.persistidas.Prato;
+import java.util.List;
 
+public class ListarPratoHTML {
+  final String html = "<!doctype html>\n"
+      + "<html lang=\"pt-br\">\n"
+      + "  <head>\n"
+      + "    <!-- Required meta tags -->\n"
+      + "    <meta charset=\"utf-8\">\n"
+      + "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n"
+      + "\n"
+      + "    <!-- Bootstrap CSS -->\n"
+      + "\n"
+      + "    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css\">\n"
+      + "    <style>\n"
+      + "        .navbar {\n"
+      + "  color: #c51919;\n"
+      + "  background-color: #e9c4de;\n"
+      + "}\n"
+      + "\n"
+      + ".nav-link {\n"
+      + "  color: #c51919;\n"
+      + "}\n"
+      + "\n"
+      + ".card-title {\n"
+      + "  color: #c51919;\n"
+      + "}\n"
+      + "\n"
+      + ".nav {\n"
+      + "  color: #FFFFFF;\n"
+      + "  background-color: #CC3333;\n"
+      + "}\n"
+      + "\n"
+      + ".card {\n"
+      + "  background: #f0dfec;\n"
+      + "}\n"
+      + "    </style>\n"
+      + "\n"
+      + "    <!-- Optional JavaScript -->\n"
+      + "    <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n"
+      + "    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n"
+      + "    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js\"></script>\n"
+      + "    <title>No Q</title>\n"
+      + "  </head>\n"
+      + "  <body>\n"
+      + "    <nav class=\"navbar navbar-fixed-top navbar-expand-lg \">\n"
+      + "        <div class=\"container\">\n"
+      + "                \n"
+      + "            <a class=\"navbar-brand h1 mb-0\" href=\"/home\">\n"
+      + "                <img src=\"https://i.imgur.com/qG71wOq.png\" height=\"45\" width=\"70\" alt=\"\">\n"
+      + "            </a>\n"
+      + "            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSite\">\n"
+      + "                <span class=\"navbar-toggler-icon\"></span>\n"
+      + "            </button>\n"
+      + "            <div class=\"collapse navbar-collapse\" id=\"navbarSite\">\n"
+      + "                <ul class=\"navbar-nav ml-auto\">\n"
+      + "                    <li class=\"nav-item\">\n"
+      + "                        <a class=\"navbar-brand h1 mb-0\" href=\"#\">\n"
+      + "                            <img src=\"https://i.imgur.com/ABhNqvX.png\" height=\"40\" width=\"40\" alt=\"\">\n"
+      + "                        </a>\n"
+      + "                    </li>\n"
+      + "                    <li class=\"nav-item\">\n"
+      + "                            <a class=\"nav-link\" href=\"/listar/prato\">Pratos</a>\n"
+      + "                    </li>\n"
+      + "                    <li class=\"nav-item\">\n"
+      + "                            <a class=\"nav-link\" href=\"#\">Sair</a>\n"
+      + "                    </li>\n"
+      + "                </ul>\n"
+      + "            </div>\n"
+      + "        </div>\n"
+      + "    </nav>\n"
+      + "    <div class=\"container\"> <p></p></div>\n"
+      + "    <div class=\"container\">\n"
+      + "        <div class=\"row mb-5\" style=\"width: 100rem\">\n"
+      + "            <!-- <div class=\"col-sm-1\">\n"
+      + "                <div class=\"card text-danger border-danger mb-3\">\n"
+      + "                    <div class=\"card-body\">\n"
+      + "                        <b class=\"card-title\" href=\"#\">Pastel</b>\n"
+      + "                        <b class=\"card-content\">10 min</b> \n"
+      + "                    </div>\n"
+      + "                </div>\n"
+      + "            </div> -->\n"
+      + "            %s\n"
+      + "            <div class=\"col-sm-1\">\n"
+      + "                <div class=\"card\">\n"
+      + "                    <a class=\"card h1 mb-0\" href=\"/cadastrar/prato/\">\n"
+      + "                        <img class=\"card-img-top\" src=\"https://i.imgur.com/JhQ5sAV.png\">\n"
+      + "                    </a>\n"
+      + "                </div>\n"
+      + "            </div>\n"
+      + "        </div>\n"
+      + "\n"
+      + "\n"
+      + "    \n"
+      + "  </body>\n"
+      + "</html>";
+
+  public String getHtml() {
+    return this.html;
+  }
+
+  public String formatHtml(List<Prato> pratos){
+    String extraHTML = "";
+    for(Prato p: pratos){
+      String pratoHTML = "<div class=\\\"col-sm-1\\\">\\n\"\n"
+          + "      + \"                <div class=\\\"card text-danger border-danger mb-3\\\">\\n\"\n"
+          + "      + \"                    <div class=\\\"card-body\\\">\\n\"\n"
+          + "      + \"                        <b class=\\\"card-title\\\" href=\\\"#\\\">%s</b>\\n\"\n"
+          + "      + \"                        <b class=\\\"card-content\\\">%d,%d min</b> \\n\"\n"
+          + "      + \"                    </div>\\n\"\n"
+          + "      + \"                </div>\\n\"\n"
+          + "      + \"            </div>\\n\"";
+      pratoHTML = String.format(pratoHTML, p.getNome(), p.getPreco().getReais(),p.getPreco().getCentavos());
+      extraHTML += pratoHTML;
+    }
+    return String.format(this.html, extraHTML);
+  }
 }
