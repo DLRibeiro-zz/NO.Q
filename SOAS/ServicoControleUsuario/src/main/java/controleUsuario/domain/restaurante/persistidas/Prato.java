@@ -19,8 +19,8 @@ public abstract class Prato{
   private int tempo;
   @NotEmpty
   private Preco preco;
-  @NotEmpty
-  private CNPJ cnpjRestaurante;
+  private CNPJ cnpjRestaurante = new CNPJ("");
+
 
   public Prato(){
 

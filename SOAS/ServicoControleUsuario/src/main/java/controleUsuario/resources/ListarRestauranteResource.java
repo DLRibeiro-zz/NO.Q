@@ -28,8 +28,9 @@ public class ListarRestauranteResource {
     return Response.ok(json).build();
   }
 
-  @Path("/cnpj/{cnpj}")
+
   @GET
+  @Path("/cnpj/{cnpj}")
   public Response buscarPratos(@PathParam("cnpj") String cnpj) throws IOException {
     String url = "http://servicecadastrorestaurante:8080/listar/restaurante/cnpj/" + cnpj;
     String json = Jsoup.connect(url)

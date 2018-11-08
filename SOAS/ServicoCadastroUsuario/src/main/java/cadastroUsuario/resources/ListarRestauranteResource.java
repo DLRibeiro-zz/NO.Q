@@ -26,8 +26,9 @@ public class ListarRestauranteResource {
     return response;
   }
 
-  @Path("cnpj/{cnpj}")
+
   @GET
+  @Path("cnpj/{cnpj}")
   public Response buscarRestaurante(@PathParam("cnpj") String cnpj){
     CNPJ cnpjO = new CNPJ(cnpj);
     List<Restaurante> restaurantes = this.restauranteDB.buscarRestaurante(cnpjO);

@@ -1,10 +1,13 @@
 package gui.resources;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import gui.domain.restaurante.PratoCollection;
+import gui.domain.restaurante.PratoSimples;
 import gui.domain.restaurante.persistidas.Prato;
 import gui.html.CadastrarPratoHTML;
 import gui.html.ListarPratoHTML;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -29,9 +32,31 @@ public class ListarPratoResource {
     String pratosURL = "http://servicefachada:8080/listar/prato/";
     String jsonPratos = Jsoup.connect(pratosURL).method(Connection.Method.GET)
         .ignoreContentType(true).execute().body();
+    System.out.println(jsonPratos);
+    String[] jsons = jsonPratos.replace("[","").replace("]","").split("\\{");
+    int index = -1;
+    List<String> resultingJson = new ArrayList<>();
+    for(String object: jsons){
+      if(index==-1) {
+        index++;
+        continue;
+      }
+      if(index%3 ==0){
+        resultingJson.add("{\"type\":\"simple\"," + object);
+      }else{
+        resultingJson.add("{" + object);
+      }
+      index++;
+    }
+    jsonPratos = String.join("",resultingJson);
+//    jsonPratos = "[" + jsonPratos + "]";
+    System.out.println(jsonPratos);
     ObjectMapper mapper = new ObjectMapper();
-    List<Prato> pratos =  mapper.readValue(jsonPratos, mapper.getTypeFactory().constructCollectionType(List.class, Prato.class));
-    return Response.ok(listarPratoHTML.formatHtml(pratos)).build();
+    Prato pratos = mapper.readValue(jsonPratos, Prato.class);
+    System.out.println(pratos);
+    List<Prato> pratoList = new ArrayList<>();
+    pratoList.add(pratos);
+    return Response.ok(listarPratoHTML.formatHtml(pratoList)).build();
   }
 
 //  @GET

@@ -1,13 +1,25 @@
 package controlePrato.domain.restaurante.persistidas;
 
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonSubTypes.Type;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import controlePrato.domain.restaurante.CNPJ;
+import controlePrato.domain.restaurante.PratoComposto;
+import controlePrato.domain.restaurante.PratoSimples;
 import controlePrato.domain.restaurante.Preco;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonSetter;
 import org.hibernate.validator.constraints.NotEmpty;
-
+@JsonTypeInfo(
+    use = JsonTypeInfo.Id.NAME,
+    include = JsonTypeInfo.As.PROPERTY,
+    property = "type")
+@JsonSubTypes({
+    @Type(value = PratoSimples.class, name = "simples"),
+    @Type(value = PratoComposto.class, name = "composto")
+})
 public abstract class Prato{
 
   int id;
@@ -19,13 +31,13 @@ public abstract class Prato{
   private int tempo;
   @NotEmpty
   private Preco preco;
-  @NotEmpty
-  private CNPJ cnpjRestaurante;
+  private CNPJ cnpjRestaurante = new CNPJ("");
+
 
   public Prato(){
 
   }
-  @JsonCreator
+//  @JsonCreator
   public Prato(@JsonProperty("nome") String nome,
       @JsonProperty("descricao") String descricao,
       @JsonProperty("tempo") int tempo,
@@ -38,7 +50,7 @@ public abstract class Prato{
     this.cnpjRestaurante = cnpj;
   }
 
-  @JsonCreator
+//  @JsonCreator
   public Prato(@JsonProperty("nome") String nome,
       @JsonProperty("descricao") String descricao,
       @JsonProperty("tempo") int tempo,
@@ -51,7 +63,7 @@ public abstract class Prato{
     this.cnpjRestaurante = cnpj;
   }
 
-  @JsonCreator
+//  @JsonCreator
   public Prato(@JsonProperty("nome") String nome,
       @JsonProperty("descricao") String descricao,
       @JsonProperty("tempo") int tempo,

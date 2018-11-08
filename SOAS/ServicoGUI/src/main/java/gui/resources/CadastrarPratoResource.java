@@ -45,7 +45,7 @@ public class CadastrarPratoResource {
     int precoCentavos = Integer.valueOf(reais.split(",")[1]);
     Prato prato = new PratoSimples(nome,descricao,tempo,new Preco(precoReais, precoCentavos));
     String pratoJson = mapper.writeValueAsString(prato);
-    System.out.println(prato);
+    System.out.println(pratoJson);
     //.data("atividade", atividadeJson)
     int statusCode = Jsoup.connect("http://servicefachada:8080/cadastrar/prato")
         .requestBody(pratoJson)

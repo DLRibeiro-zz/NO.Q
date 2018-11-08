@@ -34,8 +34,9 @@ public class ListarPratoResource {
     return Response.ok(prato).build();
   }
 
-  @Path("/cnpj/{cnpj}")
+
   @GET
+  @Path("/cnpj/{cnpj}")
   public Response buscarPratos(@PathParam("cnpj") String cnpj){
     CNPJ cnpjO = new CNPJ(cnpj);
     List<Prato> pratos = this.pratoDB.buscarPratos(cnpjO);

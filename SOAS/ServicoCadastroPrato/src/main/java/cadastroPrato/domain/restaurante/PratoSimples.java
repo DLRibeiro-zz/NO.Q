@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 public class PratoSimples extends Prato {
 
   public PratoSimples(){}
-  @JsonCreator
+//  @JsonCreator
   public PratoSimples(@JsonProperty("nome") String nome,
       @JsonProperty("descricao") String descricao,
       @JsonProperty("tempo") int tempo,

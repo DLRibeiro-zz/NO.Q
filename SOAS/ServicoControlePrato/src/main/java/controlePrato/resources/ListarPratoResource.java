@@ -40,8 +40,9 @@ public class ListarPratoResource {
     return Response.ok(json).build();
   }
 
-  @Path("/cnpj/{cnpj}")
+
   @GET
+  @Path("/cnpj/{cnpj}")
   public Response buscarPratos(@PathParam("cnpj") String cnpj) throws IOException {
     String url = "http://servicecadastroprato:8080/listar/prato/cnpj/" + cnpj;
     String json = Jsoup.connect(url)
