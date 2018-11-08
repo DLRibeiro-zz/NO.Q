@@ -13,7 +13,7 @@ public class PratoComposto extends Prato {
 
   public PratoComposto(){}
 
-  @JsonCreator
+//  @JsonCreator
   public PratoComposto(@JsonProperty("nome") String nome,
       @JsonProperty("descricao") String descricao,
       @JsonProperty("tempo") int tempo,

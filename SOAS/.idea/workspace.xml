@@ -2,15 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0231f4-640e-4c45-b9be-42a367b14427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/html/CadastrarPratoHTML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/html/HomeHTML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/html/ListarPratoHTML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/resources/HomeResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/domain/restaurante/PratoCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServicoCadastroPrato/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoCadastroPrato/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/domain/restaurante/PratoComposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/domain/restaurante/PratoComposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/domain/restaurante/PratoSimples.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/domain/restaurante/PratoSimples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/domain/restaurante/persistidas/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/domain/restaurante/persistidas/Prato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/resources/ListarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/resources/ListarPratoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoCadastroUsuario/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoCadastroUsuario/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoCadastroUsuario/src/main/java/cadastroUsuario/resources/ListarRestauranteResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoCadastroUsuario/src/main/java/cadastroUsuario/resources/ListarRestauranteResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServicoControlePrato/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoControlePrato/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/PratoComposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/PratoComposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/PratoSimples.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/PratoSimples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Prato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/resources/ListarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/resources/ListarPratoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoControleUsuario/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoControleUsuario/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoControleUsuario/src/main/java/controleUsuario/domain/restaurante/persistidas/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoControleUsuario/src/main/java/controleUsuario/domain/restaurante/persistidas/Prato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoControleUsuario/src/main/java/controleUsuario/resources/ListarRestauranteResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoControleUsuario/src/main/java/controleUsuario/resources/ListarRestauranteResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoFachada/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoFachada/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoFachada/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoFachada/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServicoFachada/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoFachada/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/domain/restaurante/PratoComposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/domain/restaurante/PratoComposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/domain/restaurante/PratoSimples.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/domain/restaurante/PratoSimples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/domain/restaurante/persistidas/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/domain/restaurante/persistidas/Prato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/resources/ListarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/resources/ListarPratoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/resources/ListarRestauranteResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/resources/ListarRestauranteResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/.idea/modules/GUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/.idea/modules/GUI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/.idea/modules/GUI_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/.idea/modules/GUI_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/.idea/modules/GUI_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/.idea/modules/GUI_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/domain/restaurante/PratoComposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/domain/restaurante/PratoComposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/domain/restaurante/PratoSimples.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/domain/restaurante/PratoSimples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/domain/restaurante/persistidas/Prato.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/domain/restaurante/persistidas/Prato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/html/CadastrarPratoHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/html/CadastrarPratoHTML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/resources/CadastrarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/resources/CadastrarPratoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/resources/ListarPratoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/ServicoGUI/src/main/java/gui/resources/ListarPratoResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../html/cadastrarPrato.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/cadastrarPrato.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../html/visualizarPratos.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/visualizarPratos.html" afterDir="false" />
@@ -25,39 +53,81 @@
     <session id="-2117543790">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="java" value="4" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JAVA" value="4" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="java" value="4" />
           <entry key="yml" value="454" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="JAVA" value="4" />
           <entry key="YAML" value="454" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="188">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/domain/restaurante/persistidas/Prato.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServicoControleUsuario/src/main/java/controleUsuario/domain/restaurante/persistidas/Prato.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Prato.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/domain/restaurante/persistidas/Prato.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -81,6 +151,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/domain/restaurante/persistidas/Prato.java" />
+        <option value="$PROJECT_DIR$/ServicoControleUsuario/src/main/java/controleUsuario/domain/restaurante/persistidas/Prato.java" />
+        <option value="$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Prato.java" />
+        <option value="$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/domain/restaurante/persistidas/Prato.java" />
       </list>
     </option>
   </component>
@@ -102,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,18 +183,155 @@
               <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="SOAS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoCadastroPrato" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoCadastroPrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoCadastroPrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoCadastroPrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoCadastroPrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cadastroPrato" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoCadastroPrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cadastroPrato" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoCadastroPrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cadastroPrato" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurante" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoCadastroPrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cadastroPrato" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurante" type="462c0819:PsiDirectoryNode" />
+              <item name="persistidas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoControlePrato" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoControlePrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoControlePrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoControlePrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoControlePrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controlePrato" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoControlePrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controlePrato" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoControlePrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controlePrato" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurante" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SOAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SOAS" type="462c0819:PsiDirectoryNode" />
+              <item name="ServicoControlePrato" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controlePrato" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurante" type="462c0819:PsiDirectoryNode" />
+              <item name="persistidas" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541622095343" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541622174299" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ServicoFachada" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -175,29 +385,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541621441673</updated>
-      <workItem from="1541621443259" duration="634000" />
+      <workItem from="1541621443259" duration="737000" />
+      <workItem from="1541642854191" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="634000" />
+    <option name="totallyTimeSpent" value="1313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -205,15 +410,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,8 +435,36 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="188">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServicoFachada/src/main/java/fachada/domain/restaurante/persistidas/Prato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServicoControleUsuario/src/main/java/controleUsuario/domain/restaurante/persistidas/Prato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServicoControlePrato/src/main/java/controlePrato/domain/restaurante/persistidas/Prato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServicoCadastroPrato/src/main/java/cadastroPrato/domain/restaurante/persistidas/Prato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

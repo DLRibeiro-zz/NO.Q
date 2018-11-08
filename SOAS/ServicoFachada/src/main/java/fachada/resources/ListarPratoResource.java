@@ -10,7 +10,7 @@ import javax.ws.rs.core.Response;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 
-@Path("listar/restaurante")
+@Path("listar/prato")
 @Produces(MediaType.APPLICATION_JSON)
 public class ListarPratoResource {
 
@@ -40,8 +40,8 @@ public class ListarPratoResource {
     return Response.ok(json).build();
   }
 
-  @Path("/cnpj/{cnpj}")
   @GET
+  @Path("/cnpj/{cnpj}")
   public Response buscarPratos(@PathParam("cnpj") String cnpj) throws IOException {
     String url = "http://servicecontroleprato:8080/listar/prato/cnpj/" + cnpj;
     String json = Jsoup.connect(url)
